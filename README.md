@@ -1,6 +1,6 @@
 # FRPC GUI Manager
 
-[中文](README.md) | [English](README_en.md)
+[中文](README_cn.md) | [English](README.md)
 
 A PyQt5-based graphical management tool for FRPC, providing an intuitive interface to manage FRPC proxy configurations.
 
@@ -232,8 +232,8 @@ Issues and Pull Requests are welcome!
 ## 🌐 Language Switch
 
 This README is available in:
-- [中文](README.md)
-- [English](README_en.md)
+- [中文](README_cn.md)
+- [English](README.md)
 
 
 
