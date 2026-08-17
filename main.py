@@ -35,7 +35,9 @@ TEMP_CONFIG_FILE_ADV = os.path.join(BASE_DIR, "frpc_t.toml")
 # 程序资源：从资源目录读取 (BASE_RESOURCE)
 # ==========================================
 RESOURCE_DIR = os.path.join(BASE_RESOURCE, "res")
-FRPC_EXECUTABLE = os.path.join(RESOURCE_DIR, "frpc.exe")
+# Windows 下为 frpc.exe，Linux/macOS 下为 frpc
+FRPC_BINARY_NAME = "frpc.exe" if sys.platform.startswith("win") else "frpc"
+FRPC_EXECUTABLE = os.path.join(RESOURCE_DIR, FRPC_BINARY_NAME)
 ICON_FILE = os.path.join(RESOURCE_DIR, "app_icon.png")
 
 # ==========================================
