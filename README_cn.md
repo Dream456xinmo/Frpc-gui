@@ -1,6 +1,6 @@
 # FRPC GUI Manager
 
-[中文](README.md) | [English](README_en.md)
+[中文](README_cn.md) | [English](README.md)
 
 一个基于 PyQt5 开发的 FRPC 图形化管理工具，提供简单直观的界面来管理 FRPC 代理配置。
 
@@ -234,8 +234,8 @@ MIT License
 ## 🌐 Language Switch
 
 This README is available in:
-- [中文](README.md)
-- [English](README_en.md)
+- [中文](README_cn.md)
+- [English](README.md)
 
 
 **如果对您有帮助，请给个 Star ⭐**
